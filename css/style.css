@@ -1,0 +1,67 @@
+/* CSS comments look like this */
+
+body{
+	background-image: url(../images/beach.jpg); /* ".. "tells computer to back one level when trying ot locate image file*/
+	background-size: 100% auto;
+	background-attachment:fixed;
+	background-position: 50% 25%;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.main {
+	box-shadow: 10px 10px 10px 10px blue;
+	background-color: rgba(255,255,255,0.8);
+	width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+h1{
+	font-family: 'Fjalla One', sans-serif;
+	text-shadow: 10px 10px 5px gray;
+	text-align: center;
+	border-bottom: 2px solid black;
+	max-width: 50%;
+	margin: 0 auto;
+}
+h2{
+	text-transform: uppercase;
+	font-weight:normal;
+	letter-spacing: 5px;
+	text-align: center;
+}
+
+img{
+	width:200px;
+	margin:0 auto; /* These two lines center an image*/
+	display: block;
+	border: solid #00506B;
+	border-radius: 50%;  /* Can specify in pixels or percentages.  50% > always a circle */
+}
+h3{ 
+	color: blue;
+	cursor: pointer;
+	margin-bottom: 0;
+}
+
+h3:hover{
+	color: lightblue;
+}
+
+p,
+ol,
+ul{
+	line-height: 1.6;
+	list-style: none;
+	padding-left: 0;
+}
+a{
+	color: #dd3300;
+	text-decoration: none;
+}
+a:hover{
+	color:#aa0000;
+	font-weight:bold;
+	text-decoration:underline;
+}
